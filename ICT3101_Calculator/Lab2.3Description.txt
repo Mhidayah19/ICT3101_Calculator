@@ -1,0 +1,31 @@
+﻿A group of system quality engineers wish to customize the command line calculator program
+to perform quality metric calculations. The engineers need to calculate the defect density of a
+system. Furthermore, they require a custom calculation for the new total number of Shipped
+Source Instructions (SSI) in the successive releases of a system (2nd release onward). The
+engineers also wish to be able to use the Musa Logarithmic model to calculate failure intensity
+and the number of expected failures, performing each of these using a single calculator
+command.
+
+Q19
+Epic:
+•	Users can calculate defect density using input values for defects and SSI.
+•	Users can compute new SSI for successive releases (2nd release onward).
+•	Users can calculate failure intensity using the Musa Logarithmic model.
+•	Users can calculate expected failures using the Musa Logarithmic model.
+•	Each of these calculations is performed via a single command.
+
+Q20
+	•	User Story 1:
+As a system quality engineer,
+I want to calculate defect density based on the number of defects and shipped source instructions (SSI),
+So that I can determine the defect ratio for the system.
+	•	User Story 2:
+As a system quality engineer,
+I want to calculate the new total number of shipped source instructions (SSI) for releases from the 2nd onward,
+So that I can monitor the system size as it evolves.
+	•	User Story 3:
+As a system quality engineer,
+I want to calculate failure intensity using the Musa Logarithmic model,
+So that I can predict the failure rate over time.
+
+

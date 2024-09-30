@@ -1,0 +1,14 @@
+/Users/hid/Desktop/Y3/ICT3112/ICT3101_Calculator/ICT3101_Calculator/bin/Debug/net8.0/ICT3101_Calculator
+/Users/hid/Desktop/Y3/ICT3112/ICT3101_Calculator/ICT3101_Calculator/bin/Debug/net8.0/ICT3101_Calculator.deps.json
+/Users/hid/Desktop/Y3/ICT3112/ICT3101_Calculator/ICT3101_Calculator/bin/Debug/net8.0/ICT3101_Calculator.runtimeconfig.json
+/Users/hid/Desktop/Y3/ICT3112/ICT3101_Calculator/ICT3101_Calculator/bin/Debug/net8.0/ICT3101_Calculator.dll
+/Users/hid/Desktop/Y3/ICT3112/ICT3101_Calculator/ICT3101_Calculator/bin/Debug/net8.0/ICT3101_Calculator.pdb
+/Users/hid/Desktop/Y3/ICT3112/ICT3101_Calculator/ICT3101_Calculator/obj/Debug/net8.0/ICT3101_Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hid/Desktop/Y3/ICT3112/ICT3101_Calculator/ICT3101_Calculator/obj/Debug/net8.0/ICT3101_Calculator.AssemblyInfoInputs.cache
+/Users/hid/Desktop/Y3/ICT3112/ICT3101_Calculator/ICT3101_Calculator/obj/Debug/net8.0/ICT3101_Calculator.AssemblyInfo.cs
+/Users/hid/Desktop/Y3/ICT3112/ICT3101_Calculator/ICT3101_Calculator/obj/Debug/net8.0/ICT3101_Calculator.csproj.CoreCompileInputs.cache
+/Users/hid/Desktop/Y3/ICT3112/ICT3101_Calculator/ICT3101_Calculator/obj/Debug/net8.0/ICT3101_Calculator.dll
+/Users/hid/Desktop/Y3/ICT3112/ICT3101_Calculator/ICT3101_Calculator/obj/Debug/net8.0/refint/ICT3101_Calculator.dll
+/Users/hid/Desktop/Y3/ICT3112/ICT3101_Calculator/ICT3101_Calculator/obj/Debug/net8.0/ICT3101_Calculator.pdb
+/Users/hid/Desktop/Y3/ICT3112/ICT3101_Calculator/ICT3101_Calculator/obj/Debug/net8.0/ICT3101_Calculator.genruntimeconfig.cache
+/Users/hid/Desktop/Y3/ICT3112/ICT3101_Calculator/ICT3101_Calculator/obj/Debug/net8.0/ref/ICT3101_Calculator.dll
