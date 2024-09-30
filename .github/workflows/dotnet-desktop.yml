@@ -60,8 +60,8 @@ jobs:
 
     env:
       Solution_Name: ICT3101_Calculator.sln
-      Test_Project_Path_NUnit: ICT3101_Calculator.UnitTests/ICT3101_Calculator.UnitTests.csproj
-      Test_Project_Path_SpecFlow: SpecFlowCalculatorTests/SpecFlowCalculatorTests.csproj
+      Test_Project_Path_NUnit: ./ICT3101_Calculator.UnitTests/ICT3101_Calculator.UnitTests.csproj
+      Test_Project_Path_SpecFlow: ./SpecFlowCalculatorTests/SpecFlowCalculatorTests.csproj
       Wap_Project_Directory: your-wap-project-directory-name
       Wap_Project_Path: your-wap-project-path
 
