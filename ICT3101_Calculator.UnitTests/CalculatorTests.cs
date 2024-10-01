@@ -234,4 +234,7 @@ public class CalculatorTests
         // Assert
         Assert.That(() => _calculator.UnknownFunctionB(4, 5), Throws.ArgumentException);
     }
+    
+    
+
 }

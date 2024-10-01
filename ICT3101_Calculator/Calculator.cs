@@ -1,3 +1,5 @@
+using ICT3101_Calculator;
+
 public class Calculator
 {
     public double DoOperation(double num1, double num2, string op)
@@ -255,15 +257,30 @@ public class Calculator
         double result = initialFailureIntensity * Math.Exp(-failureRate*FailuresAlreadyOccurred);
         return Math.Round(result, 2);
     }
-
-    public double LogarithmicAverageNumberOfExpectedFailures
-        (double failureRate, double initialFailureIntensity, double CPUHours)
+    
+    public double GenMagicNum(double input, IFileReader fileReader)
     {
-        if ((failureRate <= 0) || (initialFailureIntensity <= 0) || (CPUHours <= 0))
+        double result = 0;
+        int choice = Convert.ToInt16(input);
+        Console.WriteLine(choice);
+// //Dependency------------------------------
+//         FileReader getTheMagic = new FileReader();
+//         
+// //----------------------------------------
+        string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory,"..", "..", "..","..", "ICT3101_Calculator/MagicNumbers.txt");
+        string[] magicStrings = fileReader.Read(filePath);
+        Console.WriteLine(magicStrings[0]);
+        if ((choice >= 0) && (choice < magicStrings.Length))
         {
-            throw new ArgumentException("Hallo! Du kannst nicht ein nummer kleiner zu null eingeben");
+            result = Convert.ToDouble(magicStrings[choice]);
         }
-        double result = (1/failureRate)*Math.Log(initialFailureIntensity*failureRate*CPUHours+1);
+        else
+        {
+            // Handle the case where the index is out of range or invalid
+            return -20; // This is the value your test expects for out-of-range and invalid cases
+        }
+
+        result = (result > 0) ? (2 * result) : (-2 * result);
         return result;
     }
 

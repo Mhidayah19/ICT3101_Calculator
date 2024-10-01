@@ -108,14 +108,14 @@ namespace SpecFlowCalculatorTests
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Calculate current failure intensity for 3")]
+        [NUnit.Framework.DescriptionAttribute("Calculate current failure intensity for 4")]
         [NUnit.Framework.CategoryAttribute("LogarithmicMusa")]
-        public async System.Threading.Tasks.Task CalculateCurrentFailureIntensityFor3()
+        public async System.Threading.Tasks.Task CalculateCurrentFailureIntensityFor4()
         {
             string[] tagsOfScenario = new string[] {
                     "LogarithmicMusa"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculate current failure intensity for 3", null, tagsOfScenario, argumentsOfScenario, featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculate current failure intensity for 4", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 13
  this.ScenarioInitialize(scenarioInfo);
 #line hidden
