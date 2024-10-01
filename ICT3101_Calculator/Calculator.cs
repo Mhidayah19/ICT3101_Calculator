@@ -262,14 +262,12 @@ public class Calculator
     {
         double result = 0;
         int choice = Convert.ToInt16(input);
-        Console.WriteLine(choice);
-// //Dependency------------------------------
+// //Dependency---------------------------
 //         FileReader getTheMagic = new FileReader();
-//         
-// //----------------------------------------
+//        
+// //-----------------------------------
         string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory,"..", "..", "..","..", "ICT3101_Calculator/MagicNumbers.txt");
         string[] magicStrings = fileReader.Read(filePath);
-        Console.WriteLine(magicStrings[0]);
         if ((choice >= 0) && (choice < magicStrings.Length))
         {
             result = Convert.ToDouble(magicStrings[choice]);

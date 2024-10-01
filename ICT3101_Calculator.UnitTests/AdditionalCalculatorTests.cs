@@ -29,7 +29,7 @@ public class AdditionalCalculatorTests
             //_mockFileReader.Setup(fr => fr.Read("MagicNumbers.txt")).Returns(new string[] { "10", "20", "30", "40", "50" });
 
             // Act
-            double result = _calculator.GenMagicNum(1, _mockFileReader.Object); // Should return 30 * 2 = 60
+            double result = _calculator.GenMagicNum(1, _mockFileReader.Object); // Should return 42 * 2 = 84
 
             // Assert
             Assert.AreEqual(84, result);
